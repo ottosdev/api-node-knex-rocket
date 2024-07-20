@@ -1,0 +1,26 @@
+### GET request to example server
+GET http://localhost:3333/transactions
+Accept: application/json
+
+###
+
+POST http://localhost:3333/transactions
+Content-Type: application/json
+
+{
+  "title": "Transaction 2",
+  "amount": 1000,
+  "type": "credit"
+}
+
+
+###
+GET http://localhost:3333/transactions/e4382b5d-e2b5-484a-bdee-d2c444aea36c
+Accept: application/json
+
+###
+
+GET http://localhost:3333/transactions/summary
+Accept: application/json
+
+###

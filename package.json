@@ -1,0 +1,32 @@
+{
+  "name": "02-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
+    "test": "vitest"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/supertest": "^6.0.2",
+    "tsup": "^8.2.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.3.1",
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "supertest": "^7.0.0",
+    "zod": "^3.23.8"
+  }
+}
