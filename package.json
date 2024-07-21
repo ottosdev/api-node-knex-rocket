@@ -10,7 +10,7 @@
     "dev": "tsx src/server.ts",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
     "test": "vitest",
-    "build": "tsup src/**/* --out-dir build"
+    "build": "tsup src/* src/**/* --out-dir build"
   },
   "keywords": [],
   "author": "",
