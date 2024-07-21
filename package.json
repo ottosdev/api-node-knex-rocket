@@ -10,7 +10,7 @@
     "dev": "tsx src/server.ts",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
     "test": "vitest",
-    "build": "tsx"
+    "build": "npx tsc"
   },
   "keywords": [],
   "author": "",
