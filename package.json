@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "tsx src/server.ts",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
-    "test": "vitest"
+    "test": "vitest",
+    "build": "tsx"
   },
   "keywords": [],
   "author": "",
